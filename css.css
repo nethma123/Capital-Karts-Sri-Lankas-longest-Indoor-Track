@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+}
+/*logo image*/
+.main img.logo{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    border:3px solid #23f3a3;
+}
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav ul li{
+    display: block;
+    display:inline-flex;
+    padding: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+nav ul li a:hover{
+    color:#293641;
+    background: #23f3a3;
+    box-shadow: 0 0 10px #23f3a3, 0 0 40px #23f3a3, 0 0 80px #23f3a3;
+    
+    
+}
+
+/*h1 Style*/
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: capitalize; 
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maininput{
+    width: 400px;
+    height:530px ;
+    top:30%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow:8px 8px 50px rgb(37, 37, 37) ;
+    background:rgb(39, 39, 39);
+    backdrop-filter: blur(20px);
+    top: 550px;
+}
+.maininput .textbox1 .input{
+    box-sizing: border-box;
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom:2px solid #23f3a3 ;
+    padding: 14px;
+    color: #23f3a3;
+    width: 100%;
+    position: relative;
+    top: -20px;
+   
+
+}
+
+/*radio btn*/
+.wrapper {
+    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.option {
+   
+    width: 400px;
+    height: 20px;
+    margin: 7px;
+    padding: -1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: ;
+}
+  
+.option input {
+    position: relative;
+    top:-40px;
+    display: none;
+}
+  
+.option label {
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(131, 133, 134);
+    
+}
+  
+.option label::after {
+    content: "";
+    position: absolute;
+    right: 70%;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #0aac83;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+  
+.option label::before {
+    content: "";
+    position: absolute;
+    top: 59.1%;
+    right: 71.1%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #0aac83;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+  
+.option input:checked ~ label::before {
+    opacity: 1;
+}
+
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #535353;
+    position: relative;
+    top: -20px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+
+a.btn1{
+    position: relative;
+    padding: 5px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #b1b0b0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:10px;
+    border: 1px solid #23f3a3;
+}
+a.btn1:hover{
+    color:#255784;
+    background: #23f3a3;
+    box-shadow: 0 0 10px #23f3a3, 0 0 40px #23f3a3, 0 0 80px #23f3a3;
+}
+
+a.btn2{
+    position: relative;
+    padding: 5px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #b1b0b0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:10px;
+    border: 1px solid #23f3a3;
+}
+a.btn2:hover{
+    color:#255784;
+    background: #23f3a3;
+    box-shadow: 0 0 10px #23f3a3, 0 0 40px #23f3a3, 0 0 80px #23f3a3;
+}
+.btn{
+        float: right;
+}
+
+/*-vehicles*/
+.set img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:3px solid #23f3a3;
+    object-fit: cover;
+    position: relative;
+    top: 597px;
+    left: 780px;
+    
+}
+
+
+
+
+
